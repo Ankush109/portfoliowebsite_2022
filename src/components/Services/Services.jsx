@@ -24,15 +24,19 @@ const Services = () => {
       {/* left side */}
       <div className="awesome">
         {/* dark mode */}
-        <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
-        <span>services</span>
-        <spane>
-          Lorem ispum is simpley dummy text of printing of printing Lorem
+        <span style={{ color: darkMode ? "white" : "" }}>Skils</span>
+        <span>Tech Stacks</span>
+        <span>
+           Emerging Full Stack Developer
           <br />
-          ispum is simpley dummy text of printing
-        </spane>
+          Well in my tech-stack i have React js,React Native,Node js for making backend APIs 
+          <br />
+          I also know how to make beautiful UI-UX design,
+          <br />
+           I love React js as of its Component base architecture
+        </span>
         <a href="" download>
-          <button className="button s-button">Download CV</button>
+          {/* <button className="button s-button">Download CV</button> */}
         </a>
         <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
       </div>
@@ -46,8 +50,8 @@ const Services = () => {
         >
           <Card
             emoji={HeartEmoji}
-            heading={"Design"}
-            detail={"Figma, Sketch, Photoshop, Adobe Illustrator, Adobe xd"}
+            heading={"Languages"}
+            detail={"C,C++,java,Python"}
           />
         </motion.div>
         {/* second card */}
@@ -59,7 +63,7 @@ const Services = () => {
           <Card
             emoji={Glasses}
             heading={"Developer"}
-            detail={"Html, Css, JavaScript, React, Nodejs, Express"}
+            detail={"Html, Css, JavaScript, React js,React Native, Nodejs(capable for making backend APIs"}
           />
         </motion.div>
         {/* 3rd */}
@@ -70,9 +74,9 @@ const Services = () => {
         >
           <Card
             emoji={Humble}
-            heading={"UI/UX"}
+            heading={"Learner"}
             detail={
-              "Lorem ispum dummy text are usually use in section where we need some random text"
+              "Can learn and implement things within a few days of self learning , i have build and launched full stack web applications"
             }
             color="rgba(252, 166, 31, 0.45)"
           />
