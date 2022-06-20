@@ -19,7 +19,8 @@ const Footer = () => {
           <br/>
           <br/>
           <br/>
-          Made in  June  2022
+            
+          Ⓒ Ankush Banerjee 2022
         </div>
       </div>
     </div>

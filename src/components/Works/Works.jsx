@@ -24,16 +24,20 @@ const Works = () => {
           About Me 
           </span>
           <span>Highly Intruiged to work upon new tech</span>
-          <spane>
-           I 
-            <br />
-            ispum is simpley dummy text of printingLorem ispum is simpley dummy
-            text
-            <br />
-            y dummy text of printingLorem
-            <br />
-            ispum is simpley dummy text of printing
-          </spane>
+         
+           <spane>
+            <h1>
+              hello there,
+
+            </h1>
+           
+            
+            <h1>I am currently in my 2nd Year of Computer Science Btech form Techno Main Saltake</h1>
+           <span>
+            I did my schooling from Nava Nalanda High School
+            I used to love computer from childhood, i always had a  curiosity to learn new things in computer
+           </span>
+           </spane>
           <Link to="contact" smooth={true} spy={true}>
             <button className="button s-button">Hire Me</button>
           </Link>
