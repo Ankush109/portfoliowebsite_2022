@@ -134,3 +134,13 @@
   }
 
 }
+.o{
+  color: black;
+  font-size: x-large;
+  font-weight: 600;
+}
+.i{
+  color: rgb(106, 104, 104);
+  font-size:large;
+  font-weight: 400;
+}

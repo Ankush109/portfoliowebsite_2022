@@ -15,29 +15,34 @@ const Works = () => {
 
   // transition
   return (
-    <div className="works" id="works">
+    <><div className="works" id="works">
       {/* left side */}
       <div className="w-left">
         <div className="awesome">
           {/* dark Mode */}
           <span style={{ color: darkMode ? "white" : "" }}>
-          About Me 
+            About Me
           </span>
           <span>Highly Intruiged to work upon new tech</span>
-         
-           <spane>
-            <h1>
+
+          <spane>
+            <h1 className="o">
               hello there,
 
             </h1>
-           
-            
-            <h1>I am currently in my 2nd Year of Computer Science Btech form Techno Main Saltake</h1>
-           <span>
-            I did my schooling from Nava Nalanda High School
-            I used to love computer from childhood, i always had a  curiosity to learn new things in computer
-           </span>
-           </spane>
+
+
+            <h1 className="o">I am currently in my 2nd Year of Computer Science Btech form Techno Main Saltake</h1>
+            <span className="i">
+              I did my schooling from Nava Nalanda High School
+              I used to love computer from childhood, i always had a  curiosity to learn new things in computer
+              Then I started learning the basics of programming languages i.e C .
+              After getting in the first year of college i learned html,css,javascript
+              after thinking about which framework to learn i went for React js as i could shift to react native to do android development
+              I also learned C++ and learned about object oriented programming
+              I am a fitness freak and i also love travelling :)
+            </span>
+          </spane>
           <Link to="contact" smooth={true} spy={true}>
             <button className="button s-button">Hire Me</button>
           </Link>
@@ -50,34 +55,16 @@ const Works = () => {
         {/* right side */}
       </div>
       <div className="w-right">
-        <motion.div
-          initial={{ rotate: 45 }}
-          whileInView={{ rotate: 0 }}
-          viewport={{ margin: "-40px" }}
-          transition={{ duration: 3.5, type: "spring" }}
-          className="w-mainCircle"
-        >
-          <div className="w-secCircle">
-            <img src={Upwork} alt="" />
-          </div>
-          <div className="w-secCircle">
-            <img src={Fiverr} alt="" />
-          </div>
-          <div className="w-secCircle">
-            <img src={Amazon} alt="" />
-          </div>{" "}
-          <div className="w-secCircle">
-            <img src={Shopify} alt="" />
-          </div>
-          <div className="w-secCircle">
-            <img src={Facebook} alt="" />
-          </div>
-        </motion.div>
+        <div>
+
+        </div>
         {/* background Circles */}
-        <div className="w-backCircle blueCircle"></div>
-        <div className="w-backCircle yellowCircle"></div>
+     
       </div>
     </div>
+    <div>
+    
+      </div></>
   );
 };
 
