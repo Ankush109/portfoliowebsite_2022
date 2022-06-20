@@ -37,4 +37,54 @@
   filter: drop-shadow(-12px 15px 13px rgba(0, 0, 0, 0.25));
   border-radius: 19px;
 }
+.about{
+  display: flex;
+  flex-direction: row-reverse;
+  padding-top: 100px;
+  padding-right: 10px;
 
+align-content: space-between;
+  justify-content: space-between;
+  
+}
+.right{
+  
+  padding: 15px;
+  border: orangered;
+border-radius: 20px;
+  background-color: rgb(144, 206, 247);
+  
+}
+.left{
+  padding-right: 450px;
+
+  flex-grow: initial;
+ 
+  font-size: large;
+  padding-left: 50px;
+}
+.right>h1{
+  color: black;
+  font-size: larger;
+  font-weight: 600;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.o{
+  color: black;
+  font-size: larger;
+  font-weight: 600;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.left>h1{
+  color: black;
+  
+  font-size: larger;
+  font-weight: 600;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.left>h2{
+  color: black;
+ 
+  font-size: large;
+  font-weight: 600;
+}
