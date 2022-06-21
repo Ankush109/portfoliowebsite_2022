@@ -12,6 +12,7 @@ import users from "../../img/users.jpeg";
 import r from "../../img/r.jpeg";
 import cart from "../../img/cart.jpeg";
 import { themeContext } from "../../Context";
+import p from "../../img/p.jpeg";
 import AwesomeSlider from 'react-awesome-slider';
 import 'react-awesome-slider/dist/styles.css';
 const Portfolio = () => {
@@ -33,11 +34,11 @@ const Portfolio = () => {
         <SwiperSlide>
           <img src={mainp} style={{ width: "50vw", height: "60vh" }} alt="" />
         </SwiperSlide>
-        <SwiperSlide>
+        {/* <SwiperSlide>
           <img src={productsp} style={{ width: "50vw", height: "60vh" }} />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={cart} style={{ width: "50vw", height: "60vh" }} alt="" />
+        </SwiperSlide> */}
+        {/* <SwiperSlide> */}
+          {/* <img src={cart} style={{ width: "50vw", height: "60vh" }} alt="" />
         </SwiperSlide>
         <SwiperSlide>
           <img src={userorder} style={{ width: "50vw", height: "60vh" }} alt="" />
@@ -56,10 +57,10 @@ const Portfolio = () => {
         </SwiperSlide>
         <SwiperSlide>
           <img src={orderadm} style={{ width: "50vw", height: "60vh" }} alt="" />
-        </SwiperSlide>
+        </SwiperSlide> */}
       </Swiper>
       <div>
-        <h1>Slide to right → </h1>
+        <h1> </h1>
       </div>
       
     </div>

@@ -1,8 +1,9 @@
 .portfolio {
   display: flex;
-  align-items: center;
-  justify-content: center;
+padding: 35px;
+  align-content: space-between;
   flex-direction: column;
+  justify-content: center;
   height: 70vh;
 
 }
@@ -11,6 +12,7 @@
   color: var(--black);
   font-size: 2rem;
   font-weight: bold;
+  
 }
 
 .portfolio span:nth-of-type(2) {
@@ -87,4 +89,39 @@ border-radius: 20px;
  
   font-size: large;
   font-weight: 600;
+}
+.r>h1{
+color: black;
+font-weight: 600;
+font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.r>span{
+  color: black;
+  font-weight: 400;
+  background-color: rgb(144, 206, 247);
+  padding: 9px;
+  border-radius: 10px;
+}
+.opo:hover{
+  
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+.opo:active{
+  background-color: yellow;
+}
+.m{
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  background-color: rgb(250, 196, 103);
+ ;
+}
+.m:hover{
+
+  background-color:orangered
 }
