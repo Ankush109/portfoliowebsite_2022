@@ -125,3 +125,31 @@ font-family:Georgia, 'Times New Roman', Times, serif;
 
   background-color:orangered
 }
+@media only screen and (max-width: 700px) {
+  .right{
+  
+    padding: 15px;
+    border: orangered;
+  border-radius: 20px;
+  background-color: #f44336;
+    
+  }
+  .about{
+    display: flex;
+    flex-direction: column-reverse;
+    padding-top: 100px;
+    padding-right: 10px;
+  
+  align-content: space-between;
+    justify-content: space-between;
+    
+  }
+  .portfolio{
+    padding:100px
+  }
+  .portfolio img {
+   height: 100px;
+   
+  
+  }
+}

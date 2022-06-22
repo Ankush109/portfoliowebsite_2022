@@ -32,7 +32,7 @@ const Portfolio = () => {
         className="portfolio-slider"
       >
         <SwiperSlide>
-          <img src={mainp} style={{ width: "50vw", height: "60vh" }} alt="" />
+          <img  className="k" src={mainp} style={{ width: "50vw", height: "60vh" }} alt="" />
         </SwiperSlide>
         {/* <SwiperSlide>
           <img src={productsp} style={{ width: "50vw", height: "60vh" }} />
