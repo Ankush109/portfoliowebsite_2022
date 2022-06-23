@@ -99,7 +99,7 @@ font-family:Georgia, 'Times New Roman', Times, serif;
   color: black;
   font-weight: 400;
   background-color: rgb(144, 206, 247);
-  padding: 9px;
+  padding: 2px;
   border-radius: 10px;
 }
 .opo:hover{
@@ -131,7 +131,7 @@ font-family:Georgia, 'Times New Roman', Times, serif;
     padding: 15px;
     border: orangered;
   border-radius: 20px;
-  background-color: #f44336;
+  background-color: rgb(144, 206, 247);
     
   }
   .about{
@@ -147,9 +147,8 @@ font-family:Georgia, 'Times New Roman', Times, serif;
   .portfolio{
     padding:100px
   }
-  .portfolio img {
-   height: 100px;
-   
-  
-  }
+ .y>img{
+  width: fit-content;
+ }
+ 
 }

@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import "./Portfolio.css";
 import { Swiper, SwiperSlide } from "swiper/react"
 import "swiper/css";
+import About from "./About";
 import mainp from "../../img/mainp.jpeg";
 import productsp from "../../img/productsp.jpeg";
 import productsad from "../../img/productsad.jpeg";
@@ -25,15 +26,21 @@ const Portfolio = () => {
       <span>Portfolio</span>
 
       {/* slider */}
-      <Swiper
+      {/* <Swiper
         spaceBetween={30}
         slidesPerView={3}
         grabCursor={true}
         className="portfolio-slider"
-      >
-        <SwiperSlide>
-          <img  className="k" src={mainp} style={{ width: "50vw", height: "60vh" }} alt="" />
-        </SwiperSlide>
+      > */}
+        {/* SwiperSlide>
+
+        </SwiperSlide>< */}
+      <div className="y">
+         <img src={mainp} style={{width: "70vw", height: "40vh" }} alt="" />
+      </div>
+      <div>
+        {/* <About/> */}
+      </div>
         {/* <SwiperSlide>
           <img src={productsp} style={{ width: "50vw", height: "60vh" }} />
         </SwiperSlide> */}
@@ -58,7 +65,7 @@ const Portfolio = () => {
         <SwiperSlide>
           <img src={orderadm} style={{ width: "50vw", height: "60vh" }} alt="" />
         </SwiperSlide> */}
-      </Swiper>
+      {/* </Swiper> */}
       <div>
         <h1> </h1>
       </div>

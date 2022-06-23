@@ -29,7 +29,7 @@ const Po = () => {
               className="portfolio-slider"
           >
               <SwiperSlide>
-                  <img src={p} style={{ width: "50vw", height: "60vh" }} alt="" />
+                  <img src={p} style={{width: "70vw", height: "40vh"}} alt="" />
               </SwiperSlide>
 
           </Swiper>
