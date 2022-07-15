@@ -31,29 +31,7 @@ const Experience = () => {
         <span>Work</span>
       </div>
       <div>
-      <motion.div
-          initial={{ rotate: 45 }}
-          whileInView={{ rotate: 0 }}
-          viewport={{ margin: "-40px" }}
-          transition={{ duration: 4, type: "spring" }}
-          className="w-mainCircle"
-        >
-          <div className="w-secCircle">
-            <img src={Upwork} alt="" />
-          </div>
-          <div className="w-secCircle">
-            <img src={Fiverr} alt="" />
-          </div>
-          <div className="w-secCircle">
-            <img src={Amazon} alt="" />
-          </div>{" "}
-          <div className="w-secCircle">
-            <img src={Shopify} alt="" />
-          </div>
-          <div className="w-secCircle">
-            <img src={Facebook} alt="" />
-          </div>
-        </motion.div>
+      
      
       </div>
     </div>

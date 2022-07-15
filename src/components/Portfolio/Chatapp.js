@@ -57,6 +57,17 @@ const Chatapp = () => {
             also has notificaiton badge which shows if anyone send you any
             message.
           </span>
+          <br />
+          <br />
+          <span>
+            If you want to know the details ,here is my github repo link where i
+            have explained every functionality of this applicaiton in details
+            with images.
+            <br />
+            <a href="https://github.com/Ankush109/MERN_stack_chatapp">
+              <button className="github">For more details</button>
+            </a>
+          </span>
         </div>
       </div>
     </>

@@ -19,6 +19,15 @@ function About() {
       
 
         </span>
+        <span>
+            If you want to know the details ,here is my github repo link where i
+            have explained every functionality of this applicaiton in details
+            with images.
+            <br />
+            <a href="https://github.com/Ankush109/ADAT_FINAL_APP">
+              <button className="github">For more details</button>
+            </a>
+          </span>
         </div>
        
       </div>

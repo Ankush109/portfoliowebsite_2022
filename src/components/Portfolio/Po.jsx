@@ -42,7 +42,18 @@ const Po = () => {
             <br/>
 
             <span>This is a simple weather app where you can type any valid location around the globe and see its weather conditions, i have used opne weather api to fetch the data. </span>
-            </div>
+        <br />
+        <br/>
+        <span>
+            If you want to know the details ,here is my github repo link where i
+            have explained every functionality of this applicaiton in details
+            with images.
+            <br />
+            <a href="https://github.com/Ankush109/Weather_app-2022_new-">
+              <button className="github">For more details</button>
+            </a>
+          </span>      
+      </div>
 
 
 

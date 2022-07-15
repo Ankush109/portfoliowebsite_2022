@@ -121,6 +121,17 @@ font-family:Georgia, 'Times New Roman', Times, serif;
   background-color: rgb(250, 196, 103);
  ;
 }
+.github {
+  padding: 9px;
+  border: 1px;
+  border-radius: 10px;
+  background-color: gray;
+  color: white
+  ;
+}
+.github:hover{
+  background-color: rgb(28, 27, 27);
+}
 .m:hover{
 
   background-color:orangered
