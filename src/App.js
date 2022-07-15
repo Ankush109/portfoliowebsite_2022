@@ -12,6 +12,7 @@ import { useContext } from "react";
 import { themeContext } from "./Context";
 import About from "./components/Portfolio/About";
 import Po from "./components/Portfolio/Po";
+import Chatapp from "./components/Portfolio/Chatapp";
 function App() {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
@@ -29,8 +30,9 @@ function App() {
       <Experience />
       <Works />
       <Portfolio />
-     <About/>
-     <Po/>
+      <About />
+      <Po />
+      <Chatapp />
       <Contact />
       <Footer />
     </div>

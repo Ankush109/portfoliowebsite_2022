@@ -36,7 +36,7 @@ const Portfolio = () => {
 
         </SwiperSlide>< */}
       <div className="y">
-         <img src={mainp} style={{width: "70vw", height: "40vh" }} alt="" />
+         <img src={mainp} style={{width: "60vw", height: "65vh"}} alt="" />
       </div>
       <div>
         {/* <About/> */}

@@ -50,8 +50,8 @@ align-content: space-between;
   
 }
 .right{
-  
-  padding: 15px;
+  margin: 5vh;
+  padding: 12px;
   border: orangered;
 border-radius: 20px;
   background-color: rgb(144, 206, 247);
@@ -97,10 +97,10 @@ font-family:Georgia, 'Times New Roman', Times, serif;
 }
 .r>span{
   color: black;
-  font-weight: 400;
+ 
   background-color: rgb(144, 206, 247);
-  padding: 2px;
-  border-radius: 10px;
+ padding: 5px;
+ 
 }
 .opo:hover{
   

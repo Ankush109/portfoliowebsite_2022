@@ -29,19 +29,19 @@ const Po = () => {
               className="portfolio-slider"
           >
               <SwiperSlide>
-                  <img src={p} style={{width: "70vw", height: "40vh"}} alt="" />
+                  <img src={p} style={{width: "60vw", height: "60vh"}} alt="" />
               </SwiperSlide>
 
           </Swiper>
          </div>
-         <div className="r">
+         <div className="right">
             <h1>Weatheropify (API Project)</h1>
             <a href="https://weather-app-2022-new.vercel.app/" ><button className="m">Click here to view this project online</button></a>
 
             <br/>
             <br/>
 
-            <span>I have used open weather api and fetch api to collect all the data and pass down to respective components by array destructuring & props.</span>
+            <span>This is a simple weather app where you can type any valid location around the globe and see its weather conditions, i have used opne weather api to fetch the data. </span>
             </div>
 
 
