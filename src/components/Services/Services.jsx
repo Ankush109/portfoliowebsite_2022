@@ -27,13 +27,13 @@ const Services = () => {
         <span style={{ color: darkMode ? "white" : "" }}>Skils</span>
         <span>Tech Stacks</span>
         <span>
-           Emerging Full Stack Developer
+            Full Stack Developer
           <br />
-          Well in my tech-stack i have React js,React Native,Node js for making backend APIs 
+         I know React js , React Native which is  cross platform android application platform
           <br />
-          I also know how to make beautiful UI-UX design,
+          I have quite experience in backend in Nodejs,mongodb for database, and express.
           <br />
-           I love React js as of its Component base architecture
+           I love React js as of its Component base architecture and easy to learn if you are familiar with JavaScript.
         </span>
         <a href="" download>
           {/* <button className="button s-button">Download CV</button> */}
@@ -51,7 +51,7 @@ const Services = () => {
           <Card
             emoji={HeartEmoji}
             heading={"Languages"}
-            detail={"C,C++,java,Python"}
+            detail={"C,C++"}
           />
         </motion.div>
         {/* second card */}
@@ -76,7 +76,7 @@ const Services = () => {
             emoji={Humble}
             heading={"Learner"}
             detail={
-              "Can learn and implement things within a few days of self learning , i have build and launched full stack web applications"
+              "Am eager to learn new tech things and can learn and implement things within a few days of self learning , i have build and launched full stack web applications"
             }
             color="rgba(252, 166, 31, 0.45)"
           />

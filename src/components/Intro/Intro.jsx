@@ -31,8 +31,7 @@ const Intro = () => {
           <span style={{ color: darkMode ? "white" : "" }}>Hey! I Am</span>
           <span>Ankush Banerjee</span>
           <span style={{fontSize:"0.8rem"}}>
-            Frontend Developer with high level of experience in web designing
-            and development, producting the Quality work
+           I am a MERN Stack developer and i have worked on React js on the frontend and on the backend i have experience in Nodejs and mongodb Atlas for database.
           </span>
         </div>
         <Link to="contact" smooth={true} spy={true}>
