@@ -6,7 +6,7 @@ import Glasses from "../../img/glasses.png";
 import Humble from "../../img/humble.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
-
+import Resume from "./r.pdf"
 
 const Services = () => {
   // context
@@ -35,8 +35,8 @@ const Services = () => {
           <br />
            I love React js as of its Component base architecture and easy to learn if you are familiar with JavaScript.
         </span>
-        <a href="" download>
-          {/* <button className="button s-button">Download CV</button> */}
+        <a href={Resume} download>
+          <button className="button s-button">Download CV</button>
         </a>
         <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
       </div>
