@@ -26,7 +26,7 @@ const Services = () => {
         {/* dark mode */}
         <span style={{ color: darkMode ? "white" : "" }}>Skils</span>
         <span>Tech Stacks</span>
-        <span>
+        <span >
             Full Stack Developer
           <br />
          I know React js , React Native which is  cross platform android application platform
